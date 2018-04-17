@@ -1,0 +1,3 @@
+/home/dev/MTCNN/build-detection-Desktop-Default/CMakeFiles/edit_cache.dir
+/home/dev/MTCNN/build-detection-Desktop-Default/CMakeFiles/MTCNN.dir
+/home/dev/MTCNN/build-detection-Desktop-Default/CMakeFiles/rebuild_cache.dir

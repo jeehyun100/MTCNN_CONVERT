@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="pbcvt"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\opt\;CMake Files\..\..\..\..\opt\conda\;CMake Files\..\..\..\..\opt\conda\share\;CMake Files\..\..\..\..\opt\conda\share\OpenCV\;CMake Files\..\..\caffe\;CMake Files\..\..\caffe\build\;CMake Files\cmake\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/dev/MTCNN_CONVERT2"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/dev/MTCNN_CONVERT2/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/dev/MTCNN_CONVERT2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/dev/MTCNN_CONVERT2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/dev/MTCNN_CONVERT2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/dev/MTCNN_CONVERT2"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/dev/MTCNN_CONVERT2/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/dev/MTCNN_CONVERT2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/dev/MTCNN_CONVERT2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/dev/MTCNN_CONVERT2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/home/dev/MTCNN_CONVERT2"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/dev/MTCNN_CONVERT2/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/dev/MTCNN_CONVERT2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/dev/MTCNN_CONVERT2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/dev/MTCNN_CONVERT2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pbcvt">
+				<Option output="/home/dev/MTCNN_CONVERT2/pbcvt.cpython-35m-x86_64-linux-gnu.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/dev/MTCNN_CONVERT2"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_LMDB"/>
+					<Add option="-DUSE_LEVELDB"/>
+					<Add option="-DCPU_ONLY"/>
+					<Add option="-DUSE_OPENCV"/>
+					<Add directory="/home/dev/caffe/distribute/include"/>
+					<Add directory="/home/dev/MTCNN_CONVERT2/detection/include"/>
+					<Add directory="/opt/conda/include"/>
+					<Add directory="/opt/conda/include/opencv"/>
+					<Add directory="/usr/include/python3.5m"/>
+					<Add directory="/usr/local/lib/python3.5/dist-packages/numpy/core/include"/>
+					<Add directory="/usr/include/atlas"/>
+					<Add directory="/home/dev/caffe/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/dev/MTCNN_CONVERT2/Makefile&quot;  VERBOSE=1 pbcvt"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/dev/MTCNN_CONVERT2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/dev/MTCNN_CONVERT2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/dev/MTCNN_CONVERT2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pbcvt/fast">
+				<Option output="/home/dev/MTCNN_CONVERT2/pbcvt.cpython-35m-x86_64-linux-gnu.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/dev/MTCNN_CONVERT2"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_LMDB"/>
+					<Add option="-DUSE_LEVELDB"/>
+					<Add option="-DCPU_ONLY"/>
+					<Add option="-DUSE_OPENCV"/>
+					<Add directory="/home/dev/caffe/distribute/include"/>
+					<Add directory="/home/dev/MTCNN_CONVERT2/detection/include"/>
+					<Add directory="/opt/conda/include"/>
+					<Add directory="/opt/conda/include/opencv"/>
+					<Add directory="/usr/include/python3.5m"/>
+					<Add directory="/usr/local/lib/python3.5/dist-packages/numpy/core/include"/>
+					<Add directory="/usr/include/atlas"/>
+					<Add directory="/home/dev/caffe/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/dev/MTCNN_CONVERT2/Makefile&quot;  VERBOSE=1 pbcvt/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/dev/MTCNN_CONVERT2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/dev/MTCNN_CONVERT2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/dev/MTCNN_CONVERT2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/dev/MTCNN_CONVERT2"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/dev/MTCNN_CONVERT2/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/dev/MTCNN_CONVERT2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/dev/MTCNN_CONVERT2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/dev/MTCNN_CONVERT2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/home/dev/MTCNN_CONVERT2"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/dev/MTCNN_CONVERT2/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/dev/MTCNN_CONVERT2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/dev/MTCNN_CONVERT2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/dev/MTCNN_CONVERT2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/home/dev/MTCNN_CONVERT2"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/dev/MTCNN_CONVERT2/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/dev/MTCNN_CONVERT2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/dev/MTCNN_CONVERT2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/dev/MTCNN_CONVERT2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/home/dev/MTCNN_CONVERT2"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/dev/MTCNN_CONVERT2/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/dev/MTCNN_CONVERT2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/dev/MTCNN_CONVERT2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/dev/MTCNN_CONVERT2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/dev/MTCNN_CONVERT2/detection/MTCNN.cpp">
+			<Option target="pbcvt"/>
+		</Unit>
+		<Unit filename="/home/dev/MTCNN_CONVERT2/detection/MTCNN.h">
+			<Option target="pbcvt"/>
+		</Unit>
+		<Unit filename="/home/dev/MTCNN_CONVERT2/detection/include/pyboostcvconverter/pyboostcvconverter.hpp">
+			<Option target="pbcvt"/>
+		</Unit>
+		<Unit filename="/home/dev/MTCNN_CONVERT2/detection/main.cpp">
+			<Option target="pbcvt"/>
+		</Unit>
+		<Unit filename="/home/dev/MTCNN_CONVERT2/detection/posface.cpp">
+			<Option target="pbcvt"/>
+		</Unit>
+		<Unit filename="/home/dev/MTCNN_CONVERT2/detection/posface.h">
+			<Option target="pbcvt"/>
+		</Unit>
+		<Unit filename="/home/dev/MTCNN_CONVERT2/detection/pyboost_cv2_converter.cpp">
+			<Option target="pbcvt"/>
+		</Unit>
+		<Unit filename="/home/dev/MTCNN_CONVERT2/detection/pyboost_cv3_converter.cpp">
+			<Option target="pbcvt"/>
+		</Unit>
+		<Unit filename="/home/dev/MTCNN_CONVERT2/detection/python_module.cpp">
+			<Option target="pbcvt"/>
+		</Unit>
+		<Unit filename="/home/dev/MTCNN_CONVERT2/detection/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/dev/MTCNN_CONVERT2/detection/../../../../opt/conda/share/OpenCV/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\conda\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/dev/MTCNN_CONVERT2/detection/../../../../opt/conda/share/OpenCV/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\conda\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/dev/MTCNN_CONVERT2/detection/../../../../opt/conda/share/OpenCV/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\conda\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/dev/MTCNN_CONVERT2/detection/../../../../opt/conda/share/OpenCV/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\conda\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/dev/MTCNN_CONVERT2/detection/../../caffe/build/CaffeConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\caffe\build\"/>
+		</Unit>
+		<Unit filename="/home/dev/MTCNN_CONVERT2/detection/../../caffe/build/CaffeTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\caffe\build\"/>
+		</Unit>
+		<Unit filename="/home/dev/MTCNN_CONVERT2/detection/cmake/DetectPython.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

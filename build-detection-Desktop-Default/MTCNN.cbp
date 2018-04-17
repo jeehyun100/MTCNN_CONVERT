@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="MTCNN"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\opt\;CMake Files\..\..\..\..\opt\conda\;CMake Files\..\..\..\..\opt\conda\share\;CMake Files\..\..\..\..\opt\conda\share\OpenCV\;CMake Files\..\..\caffe\;CMake Files\..\..\caffe\build\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/dev/MTCNN/build-detection-Desktop-Default"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/dev/MTCNN/build-detection-Desktop-Default/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/dev/MTCNN/build-detection-Desktop-Default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/dev/MTCNN/build-detection-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/dev/MTCNN/build-detection-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/dev/MTCNN/build-detection-Desktop-Default"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/dev/MTCNN/build-detection-Desktop-Default/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/dev/MTCNN/build-detection-Desktop-Default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/dev/MTCNN/build-detection-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/dev/MTCNN/build-detection-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MTCNN">
+				<Option output="/home/dev/MTCNN/build-detection-Desktop-Default/MTCNN" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/dev/MTCNN/build-detection-Desktop-Default"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_LMDB"/>
+					<Add option="-DUSE_LEVELDB"/>
+					<Add option="-DCPU_ONLY"/>
+					<Add option="-DUSE_OPENCV"/>
+					<Add directory="/home/dev/caffe/distribute/include"/>
+					<Add directory="/opt/conda/include"/>
+					<Add directory="/opt/conda/include/opencv"/>
+					<Add directory="/usr/include/atlas"/>
+					<Add directory="/home/dev/caffe/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/dev/MTCNN/build-detection-Desktop-Default/Makefile&quot;  VERBOSE=1 MTCNN"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/dev/MTCNN/build-detection-Desktop-Default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/dev/MTCNN/build-detection-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/dev/MTCNN/build-detection-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MTCNN/fast">
+				<Option output="/home/dev/MTCNN/build-detection-Desktop-Default/MTCNN" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/dev/MTCNN/build-detection-Desktop-Default"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_LMDB"/>
+					<Add option="-DUSE_LEVELDB"/>
+					<Add option="-DCPU_ONLY"/>
+					<Add option="-DUSE_OPENCV"/>
+					<Add directory="/home/dev/caffe/distribute/include"/>
+					<Add directory="/opt/conda/include"/>
+					<Add directory="/opt/conda/include/opencv"/>
+					<Add directory="/usr/include/atlas"/>
+					<Add directory="/home/dev/caffe/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/dev/MTCNN/build-detection-Desktop-Default/Makefile&quot;  VERBOSE=1 MTCNN/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/dev/MTCNN/build-detection-Desktop-Default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/dev/MTCNN/build-detection-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/dev/MTCNN/build-detection-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/dev/MTCNN/build-detection-Desktop-Default"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/dev/MTCNN/build-detection-Desktop-Default/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/dev/MTCNN/build-detection-Desktop-Default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/dev/MTCNN/build-detection-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/dev/MTCNN/build-detection-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/dev/MTCNN/detection/MTCNN.cpp">
+			<Option target="MTCNN"/>
+		</Unit>
+		<Unit filename="/home/dev/MTCNN/detection/MTCNN.h">
+			<Option target="MTCNN"/>
+		</Unit>
+		<Unit filename="/home/dev/MTCNN/detection/main.cpp">
+			<Option target="MTCNN"/>
+		</Unit>
+		<Unit filename="/home/dev/MTCNN/detection/posface.cpp">
+			<Option target="MTCNN"/>
+		</Unit>
+		<Unit filename="/home/dev/MTCNN/detection/posface.h">
+			<Option target="MTCNN"/>
+		</Unit>
+		<Unit filename="/home/dev/MTCNN/detection/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/dev/MTCNN/detection/../../../../opt/conda/share/OpenCV/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\conda\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/dev/MTCNN/detection/../../../../opt/conda/share/OpenCV/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\conda\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/dev/MTCNN/detection/../../../../opt/conda/share/OpenCV/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\conda\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/dev/MTCNN/detection/../../../../opt/conda/share/OpenCV/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\conda\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/dev/MTCNN/detection/../../caffe/build/CaffeConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\caffe\build\"/>
+		</Unit>
+		<Unit filename="/home/dev/MTCNN/detection/../../caffe/build/CaffeTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\caffe\build\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
